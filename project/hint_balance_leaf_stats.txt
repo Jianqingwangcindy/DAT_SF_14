@@ -1,0 +1,26 @@
+Conditions	HintGenerateRate	Leaf Size
+(df['death'] <= 0.5) & (df['eventsum'] <= 3.5) & (df['eventsum'] <= 1.5)	0.0	783298
+(df['death'] <= 0.5) & (df['eventsum'] <= 3.5) & (df['eventsum'] > 1.5) & (df['residence'] <= 0.5) & (df['birthyear'] <= 1886.5)	0.000785340314136	3820
+(df['death'] <= 0.5) & (df['eventsum'] <= 3.5) & (df['eventsum'] > 1.5) & (df['residence'] <= 0.5) & (df['birthyear'] > 1886.5)	0.0	3267
+(df['death'] <= 0.5) & (df['eventsum'] <= 3.5) & (df['eventsum'] > 1.5) & (df['residence'] > 0.5)	0.0	12453
+(df['death'] <= 0.5) & (df['eventsum'] > 3.5)	0.000575208513086	3477
+(df['death'] > 0.5) & (df['birth'] <= 0.5)	0.0	14756
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] <= 17.5) & (df['birthregion'] <= 1.5)	0.0903019744483	3444
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] <= 17.5) & (df['birthregion'] > 1.5)	0.220439189189	3552
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] <= 2.5) & (df['birthyear'] <= 1930.5) & (df['birthyear'] <= 1811.5)	0.383035714286	12320
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] <= 2.5) & (df['birthyear'] <= 1930.5) & (df['birthyear'] > 1811.5)	0.462039045553	13369
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] <= 2.5) & (df['birthyear'] > 1930.5)	0.265446224256	3059
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] > 2.5) & (df['birthyear'] <= 1922.5) & (df['birthstate'] <= 32.5)	0.622320517183	5878
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] > 2.5) & (df['birthyear'] <= 1922.5) & (df['birthstate'] > 32.5)	0.697841726619	8896
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] <= 0.5) & (df['birthyear'] > 17.5) & (df['namecount'] > 2.5) & (df['birthyear'] > 1922.5)	0.445609436435	3052
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] <= 5.5) & (df['birthsubregion'] <= 4.5)	0.0530182050463	3131
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] <= 5.5) & (df['birthsubregion'] > 4.5) & (df['birthyear'] <= 1759.5)	0.0362367021277	3008
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] <= 5.5) & (df['birthsubregion'] > 4.5) & (df['birthyear'] > 1759.5)	0.0284679089027	3864
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] > 5.5) & (df['namecount'] <= 2.5) & (df['birthyear'] <= 1853.5)	0.0536604827449	5013
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] > 5.5) & (df['namecount'] <= 2.5) & (df['birthyear'] > 1853.5)	0.094298245614	3192
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] <= 1.5) & (df['birthsubregion'] > 5.5) & (df['namecount'] > 2.5)	0.182348465635	3943
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] > 1.5) & (df['eventsum'] <= 2.5) & (df['namecount'] <= 2.5) & (df['birthstate'] <= 32.5)	0.121756487026	3006
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] > 1.5) & (df['eventsum'] <= 2.5) & (df['namecount'] <= 2.5) & (df['birthstate'] > 32.5)	0.209879703097	3907
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] > 1.5) & (df['eventsum'] <= 2.5) & (df['namecount'] > 2.5)	0.335349815886	3802
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] > 1.5) & (df['eventsum'] > 2.5) & (df['namecount'] <= 2.5)	0.368421052632	4142
+(df['death'] > 0.5) & (df['birth'] > 0.5) & (df['hasrelative'] > 0.5) & (df['relative'] > 1.5) & (df['eventsum'] > 2.5) & (df['namecount'] > 2.5)	0.596213931263	5441
